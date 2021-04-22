@@ -4,7 +4,7 @@ import socket,sys,urllib,re
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import logging
 
-banner = ("\n\nArbitrary File Upload -> XSS -> Malicious Login Page -> XHR -> Credential Harvesting \n\n")
+banner = ("\n\nXHR -> Credential Harvesting \n\n")
 
 ok = str('[+] ')
 err = str('[!] ')
